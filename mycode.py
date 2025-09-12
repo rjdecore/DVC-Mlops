@@ -17,8 +17,8 @@ new_df={'Name':'Payal','Age':30,'City':"Bsr"}
 df.loc[len(df.index)]=new_df
 
 #adding second new_data
-# new_df1={'Name':'Sikha','Age':28,'City':"Vasai"}
-# df.loc[len(df.index)]=new_df1
+new_df1={'Name':'Sikha','Age':28,'City':"Vasai"}
+df.loc[len(df.index)]=new_df1
 
 # making a Folder Named Data 
 data_dir = 'data'
